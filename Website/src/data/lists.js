@@ -1,6 +1,6 @@
 import lf1 from "./lf1";
 import lf2 from "./lf2";
-import lf3 from "./lf3";
+import lf3 from "./lf3.yaml";
 import lf4 from "./lf4.yaml";
 import lf5 from "./lf5";
 import lf6 from "./lf6";
@@ -29,7 +29,7 @@ const lists = [
     title: "Lernfeld 3",
     content: "Güter bearbeiten",
     options: {
-      display: false,
+      display: true,
     },
   },
   {

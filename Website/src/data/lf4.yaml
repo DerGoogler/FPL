@@ -2,18 +2,18 @@ config:
   title: Lernfeld 4
   key: lf4
 fragen:
-  - frage: Nennen Sie die erste sechs **R** der Logistik
+  - frage: Nennen Sie die sechs **R** der Logistik
     nr: 1
     antwort: |-
-      Sechsr der Logistik
-      - RichtigeWare
-      - RichtigeQualität
-      - Richtigemenge
-      - RichtigerOrt
-      - Richtigekosten
+      Sechs **R** der Logistik
+      - Richtige Ware
+      - Richtige Qualität
+      - Richtige Menge
+      - Richtiger Ort
+      - Richtige Kosten
   - frage: Was versteht man unter einer Lieferkette?
     nr: 2
-    antwort: Hierbei handelt es sich um einen Material Fluss, der sich vom
+    antwort: Hierbei handelt es sich um einen Materialfluss, der sich vom
       Lieferanten bis zum Kunden durch das gesamte Unternehmen beweget
   - frage: Nennesie die vier Arten der Informationen, die zusammen den
       Informationsfluss bilden
@@ -24,10 +24,10 @@ fragen:
       - Begleitende Informationen
       - Vorlaufende Informationen
       - Zurücklaufende Informationen
-  - frage: Nennen sie zwei Gründe für eine Optimierung des Material Flusses
+  - frage: Nennen sie zwei Gründe für eine Optimierung des Materialflusses
     nr: 4
     antwort: |-
-      z. B.:
+      z. B.
       - Durchlaufzeitenverkürzung
       - Ausschussreduzierung
       - Kostensenkung
@@ -37,11 +37,11 @@ fragen:
     antwort: |-
       Bereitstellung der benötigten Informationen für alle beteiligten
   - frage:
-      Nenn sie ein Hilfsmittel, ohne das die heutige Informationslogistik kaum
+      Nennen Sie ein Hilfsmittel, ohne das die heutige Informationslogistik kaum
       mehr denkbar ist
     nr: 6
     antwort: |-
-      Rechnergeschütze Informationssysteme (PC-Netzwerke mit passenden Datenbanken und waren Wirtschaftssystemen)
+      Rechnergeschütze Informationssysteme (PC-Netzwerke mit passenden Datenbanken und Warenwirtschaftssystemen)
   - frage: Welche Pflichten hat der Arbeitgeber in Bezug auf Hand Transporte
     nr: 7
     antwort: |-
