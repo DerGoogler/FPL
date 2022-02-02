@@ -1,11 +1,11 @@
-import lf1 from "./lf1";
-import lf2 from "./lf2";
+import lf1 from "./lf1.yaml";
+import lf2 from "./lf2.yaml";
 import lf3 from "./lf3.yaml";
 import lf4 from "./lf4.yaml";
-import lf5 from "./lf5";
-import lf6 from "./lf6";
-import lf7 from "./lf7";
-import lf8 from "./lf8";
+import lf5 from "./lf5.yaml";
+import lf6 from "./lf6.yaml";
+import lf7 from "./lf7.yaml";
+import lf8 from "./lf8.yaml";
 
 const lists = [
   {
