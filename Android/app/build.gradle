@@ -5,12 +5,35 @@ android {
     defaultConfig {
         applicationId 'com.dergoogler.fpl'
         minSdkVersion 23
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode 10
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+        }
         multiDexEnabled true
     }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ["src/main/res"]
+            assets.srcDirs = ["src/main/assets"]
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled true
@@ -18,6 +41,7 @@ android {
             multiDexEnabled true
         }
     }
+
     compileSdkVersion 31
 }
 

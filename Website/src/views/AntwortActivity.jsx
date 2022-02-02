@@ -3,11 +3,11 @@ import { Card, Page } from "react-onsenui";
 import Markdown from "markdown-to-jsx";
 import MyToolbar from "./../components/Toolbar";
 
-const AntwortActivity = ({ pushPage, popPage, antwort }) => {
+const AntwortActivity = ({ pushPage, popPage, antwort, nr }) => {
   return (
     <Page
       renderToolbar={() => (
-        <MyToolbar title={"Antwort"} onBackButton={popPage} />
+        <MyToolbar title={"Antwort zu #" + nr} onBackButton={popPage} />
       )}
     >
       <div
@@ -16,7 +16,9 @@ const AntwortActivity = ({ pushPage, popPage, antwort }) => {
         }}
       >
         <Card>
-          <Markdown>{antwort}</Markdown>
+          <div className="markdown-body">
+            <Markdown>{antwort}</Markdown>
+          </div>
         </Card>
       </div>
     </Page>

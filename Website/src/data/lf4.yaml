@@ -1,0 +1,340 @@
+config:
+  title: Lernfeld 4
+  key: lf4
+fragen:
+  - frage: Nennen Sie die erste sechs **R** der Logistik
+    nr: 1
+    antwort: |-
+      Sechsr der Logistik
+      - RichtigeWare
+      - RichtigeQualität
+      - Richtigemenge
+      - RichtigerOrt
+      - Richtigekosten
+  - frage: Was versteht man unter einer Lieferkette?
+    nr: 2
+    antwort: Hierbei handelt es sich um einen Material Fluss, der sich vom
+      Lieferanten bis zum Kunden durch das gesamte Unternehmen beweget
+  - frage: Nennesie die vier Arten der Informationen, die zusammen den
+      Informationsfluss bilden
+    nr: 3
+    antwort: |-
+      Den Informationsfluss bilden
+      - Nachlaufende Informationen
+      - Begleitende Informationen
+      - Vorlaufende Informationen
+      - Zurücklaufende Informationen
+  - frage: Nennen sie zwei Gründe für eine Optimierung des Material Flusses
+    nr: 4
+    antwort: |-
+      z. B.:
+      - Durchlaufzeitenverkürzung
+      - Ausschussreduzierung
+      - Kostensenkung
+      - Verringerung der Umweltbelastung
+  - frage: Was versteht man unter Informationen Logistik
+    nr: 5
+    antwort: |-
+      Bereitstellung der benötigten Informationen für alle beteiligten
+  - frage:
+      Nenn sie ein Hilfsmittel, ohne das die heutige Informationslogistik kaum
+      mehr denkbar ist
+    nr: 6
+    antwort: |-
+      Rechnergeschütze Informationssysteme (PC-Netzwerke mit passenden Datenbanken und waren Wirtschaftssystemen)
+  - frage: Welche Pflichten hat der Arbeitgeber in Bezug auf Hand Transporte
+    nr: 7
+    antwort: |-
+      Manuelles heben und tragen vermeiden. Ist dies nicht möglich, muss der
+      Arbeitgeber geeignete Arbeitsmittel bereitstellen und die Mitarbeiter im
+      richtigen tragen und heben unterweisen
+  - frage: Welche Pflichten hat der Arbeitgeber in Bezug auf Hand Transporte
+    nr: 8
+    antwort: |-
+      Manuelles heben und tragen vermeiden. Ist dies nicht möglich, muss der
+      Arbeitgeber geeignete Arbeitsmittel bereitstellen und die Mitarbeiter im
+      richtigen tragen und heben unterweisen
+  - frage:
+      Nenne sie zwei Gegebenheiten am Arbeitsplatz, die sich auf das manuelle
+      haben und tragen von lasten auswirken
+    nr: 9
+    antwort: |-
+      z. B.
+      - Art der last
+      - Zu erfüllende Arbeitsaufgabe
+      - Beschaffenheit der Arbeitsprozesse
+      - Arbeitsumgebeung\r\n
+  - frage: Nennen sie zwei persönliche Faktoren, die Voraussetzung für richtiges
+      tagen und heben sind
+    nr: 10
+    antwort: |-
+      z. B.
+      - Körperliche Eignung des beschäftigten
+      - Geeignete Kleidung und Schuhe
+      - Kenntnisse des beschäftigten
+  - frage: Nennen sie zwei Verhaltensregeln beim Anheben und absetzen lasten
+    nr: 11
+    antwort: |-
+      z. B.
+      - Lasten nur mit geraden rücken anheben und absetzen
+      - Beim Anheben und absetzen immer in die Hocke gehen
+      - Ruckfreies anheben und absetzen
+      - Verdrehen der Wirbelsäule vermeiden
+  - frage: Nennen sie zwei Verhaltensregen beim Heben und Tragen von lasten
+    nr: 12
+    antwort: |-
+      z. B.
+      - Möglichst eine gleichmäßige Verteilung der last erreichen
+      - Last nah am Körper transportieren
+      - Geeignete Hilfsmittel verwenden
+  - frage: Wie viel Kilogramm dürfen schwangere gelegentlich haben und tragen
+    nr: 13
+    antwort: |-
+      Gelegentlich nicht mehr als 10 kg und häufig nicht mehr als 5kg ohne
+      Hilfsmittel
+  - frage:
+      Nennen sie zwei Maßnahmen zur Vorbeugung von Ermüdungserscheinungen beim
+      Haben und tragen von lasten
+    nr: 14
+    antwort: |-
+      z. B.
+      - Verringerung der Zahl der lasten Bewegung ja Zeiteinheit
+      - Ausreichende Erholungspausen
+      - Korrekte Körperhaltung
+      - Angemessene Arbeitsmenge bei vernünftiger Zeit Einhaltung
+      - Höhe der lasten Aufnahme und ablage zwischen 70 und 100 cm.
+  - frage: Nenne sie zwei Hilfsmittel für leichte Hand Transporte
+    nr: 15
+    antwort: |-
+      z. B.
+      - Handsaugtragegriffe
+      - Tragegurte
+      - Handmagnete
+      - Tragklauen
+  - frage: Nenne sie zwei Hilfsmittel für das heben und tragen schwerer Lasten per Hand
+    nr: 16
+    antwort: |-
+      z. B.
+       - rollen und walzen
+       - Kant Eisen
+       - Rohr Schlüssel
+       - wälzwagen
+  - frage: Nennen sie drei handbetriebene Transportmittel
+    nr: 17
+    antwort: |-
+      z. B.
+       - Handwagen
+       - Sackkarre
+       - handhubwagen
+       - handgabelhubwagen
+       - rollprische
+  - frage: Nenne sie drei Kriterien, die für die Auswahl des geeigneten Fördermittels wichtig sind
+    nr: 18
+    antwort: |-
+      z. B.
+       - Art des transportgutes
+       - transportumfang
+       - Art der transportstrecke
+       - Transport Vorschriften
+       - Verfügbarer Platz im Lager
+       - Automatisierungsgrad
+       - Antriebstechnik
+       - Flurbindung
+       - Beweglichkeit der Fördermittel
+  - frage: Nennen sie drei Merkmale einen optimalen Fördermittel Einsatzes
+    nr: 19
+    antwort: |-
+      z. B.
+       - Wenige Leerfahrten
+       - Kurze beförderszeiten
+       - Flexibel einsetzbar
+       - Hoher ausnutzungsgrad
+       - Niedrige Betriebskosten
+       - Umweltschonender Einsatz
+  - frage: Unterscheiden sie stetig- und unstetig Förderer
+    nr: 20
+    antwort: |-
+      Stetig Förderer sind kontinurlich in Bewegung.
+      Unstetig Förderer bewegen sich nur, wenn sie im Einsatz sind
+  - frage: Erklären sie, was man unter einem flurgebundenen Fördermittel verstehen
+    nr: 21
+    antwort: |-
+      Flurgebundenene Fördermittel benötigen einen Fahrweg
+  - frage: Erklären sie, was man unter einem flurfreien Fördermittel versteht
+    nr: 22
+    antwort: |-
+      Flur feie Fördermittel benötigen keine Fahrwege
+  - frage: Nenne sie zwei Vorteile von stetig Förderern
+    nr: 23
+    antwort: |-
+      z. B.
+      - Hoher Automatisierungsgrad
+      - Einsatzbereitschaft rund um die Uhr
+      - Geringe Betriebskosten
+  - frage: Nennen sie zwei Nachteile von stetig Förderern
+    nr: 24
+    antwort: |-
+      z. B.
+      - Hohe Investitions- und wartungskosten
+      - Hohe Störanfälligkeit
+      - Unflexibler Einsatz, da sie eine festgelegte Transproststreckte habe
+  - frage: Nenne sie zwei Hebezeuge
+    nr: 25
+    antwort: |-
+      Krane und Aufzüge
+  - frage: Nenne sie drei Kriterien, die bei Anschlagmittlen zu prüfen sind
+    nr: 26
+    antwort: |-
+      Das Anschlagmittel ist auf Schäden zu kontrollieren, z .B. auf
+      - Brauchstellen
+      - Risse
+      - Lockerungen
+      - Verschleiß
+      - Rost
+  - frage: Anschlagmittel sind jährlich zu prüfen. Wer führt diese Prüfung durch?
+    nr: 27
+    antwort: |-
+      Ein Sachkundiger z. B. vom TÜV
+  - frage: Nennen Sie zwei Kennzeichungselements eines Anschlagmittels.
+    nr: 28
+    antwort: |-
+      z. B.
+      - Tragfähigkeit
+      - Neigungswinkel
+      - Einsatztemperatur
+  - frage: Nennen Sie zwei Vorteile von Hebezeugen
+    nr: 29
+    antwort: |-
+      z. B.
+      - einsetzbar im Innen- und Außenbereich
+      - große Hublasten sind möglich
+      - schnelle Arbeitsgeschwindigkeit
+      - variable Plattformen ermöglichen einen flexiblen Einsatz
+  - frage: Nennen Sie zwei Nachteile von Habezeugen.
+    nr: 30
+    antwort: |-
+      - relativ hohe Investitionskosten
+      - sie sind ortsgebunden
+  - frage: Wofür steht die Abkürzung FTS?
+    nr: 31
+    antwort: |-
+      Fahrerlose Transportsysteme
+  - frage: Nenne Sie zwei Vorteile von fahrerlosen Transport Systemen.
+    nr: 32
+    antwort: |-
+      - Hohe Anpassungsfähigkeit
+      - Einfache Integration in bestehende Systeme / gut nachrüstbar
+      - Unterschiedlichste Güterarten können transportiert werden
+      - Verursachen kaum Personalkosten
+  - frage: Nennen Sie wie Nachteile von fahrerlosen Transportsystemen.
+    nr: 33
+    antwort: |-
+      - Hohe Störanfälligkeit
+      - Hohe Investitionskosten
+      - Die benötigte Fahrspurbreite verursacht einen hohen Platzbedarf
+      - Komplexe Datentechnische Vernetzung ist nötig
+  - frage: Nennen Sie drei Sichtprüfungeninhalte vor der täglichen Inbetriebnahme von Flurförderfahrzeugen
+    nr: 34
+    antwort: |-
+      - Fahrzeugzustand (Risse, Leckagen, starke Verschmutzung)
+      - Fahrwerkzustand (ordnungsmäßige Reifen, Reifendruck)
+      - Zustand der Hubeinrichtung
+      - Zustand sonstiger Einrichtungen
+  - frage: Nennen Sie drei Funktionsprüfungen, die nach der Sichtprüfung täglich durchzuführen sind
+    nr: 35
+    antwort: |-
+      - Der Betriebs- und Feststellbremse
+      - Der Sicherung gegen unbefugtes Benutzen
+      - Der Warneinrichtungen (z. B. Hupe)
+      - Der Beleuchtung und Bremslichter
+      - Des Lenkungsspiels
+      - Der Hydraulik
+      - Der Lastenaufnahmemittel
+  - frage: Nennen Sie drei Verhaltensregeln, die beim Beladen eines Flurförderfahrzeuges zu beachten sind.
+    nr: 36
+    antwort: |-
+      - Maximale Höchstlast nicht überschreiben
+      - Last möglichst dich Gabelrücken/Hubmast aufnehmen
+      - Last vor Verschmutzung und Herunterfallen schützen
+      - Nie die Sicht durch die Last einschränken
+  - frage: Nennen Sie drei Fahrregeln für Flurförderzeuge.
+    nr: 37
+    antwort: |-
+      - Angemessene Geschwindigkeit
+      - Ladegabeln nur leicht anheben
+      - Freie Sicht
+      - Bergseitiger Transport bei Steigungen und Gefällen
+      - Keine Person unter angehobener Last
+      - Keine Person mitfahren lassen
+      - Fahrstil an die Fahrbahnverhältnisse anpassen
+  - frage: Nennen Sie die vier Voraussetzungen für das Führen von Gabelstaplern.
+    nr: 38
+    antwort: |-
+      Voraussetzung für das Führen von Gabelstaplern:
+      - Mindestalter 18 Jahre
+      - Geistige und körperliche Eignung
+      - Schriftliche Beauftragung von Unternehmen (innerbetrieblicher Fahrausweiß)
+  - frage: Nennen Sie drei Aufgaben von Förderhilfsmitteln.
+    nr: 39
+    antwort: |-
+      - Aufnehmen und Zusammenfassen des Lagergutes
+      - Herstellen der Transportfähigkeit
+      - Erleichtern des Auf- und Abladens
+      - Herstellen der Lagerfähingkeit
+      - Schutz des Lagergutes
+  - frage: Nennen Sie drei Aufgaben der Lagerhilfsgeräte.
+    nr: 40
+    antwort: |-
+      - Wiegen, Messen, Zählen
+      - Auspreisen
+      - Ein- und Auspacken
+      - Um- oder Auslagern
+      - Pflegen und Reinigen
+      - Verwalten und Identifizieren
+  - frage: Nenne Sie die Anlässe für eine Zustand Prüfung von Leitern
+    nr: 41
+    antwort: |-
+      Vor jedem Gebrauch, bei häufiger und hoher Beanspruchung
+  - frage: Wie viele ausgebildete Ersthelfer benötigt ein Produktionsunternehmen mit 100 Mitarbeiten?
+    nr: 42
+    antwort: |-
+      10% der Mitarbeiter, d. h. zahn Mitarbeiten
+  - frage: Wem muss ein Arbeitsunfall unmittelbar gemeldet werden?
+    nr: 43
+    antwort: |-
+      Dem unmittelbaren Vorgesetzten
+  - frage: Nennen Sie die 5 Ws eines Erste-Hilfe-Notrufs
+    nr: 44
+    antwort: |-
+      - Wo?
+      - Wie viele?
+      - Was?
+      - Welche Verletzungen?
+      - Warten!
+  - frage: Nenne Sie die Beteiligten der Rettungskette.
+    nr: 45
+    antwort: |-
+      Rettungskette:
+      - Ersthelfer (er sicher ab, ergreift Sofortmaßnahmen, setzt Notruf ab leistet Erste Hilfe)
+      - Rettungsdienst
+      - Krankenhaus
+  - frage: Jede durchgeführte Erste Hilfe ist zu dokumentieren. Wo hat die Aufzeichnung zu erfolgen?
+    nr: 46
+    antwort: |-
+      Verbandburch
+  - frage: Nennen Sie drei Angaben, die zur Dokumentation eines Unfalls im Vervandbuch festzuhalten sind.
+    nr: 47
+    antwort: |-
+      - Zeit, Ort und Hergang des Unfalls
+      - Art und Umfang der Verletzung
+      - Art und Weise der Erste-Hilfe-Maßnahme
+      - Name des Verletzten
+      - Name der beteiligten Ersthelfer
+  - frage: Wann ist eine Unfallanzeige auszufüllen?
+    nr: 48
+    antwort: |-
+      Wenn die Folgen eines Arbeitsunfalls länger als drei Kalendertage andauern oder zum Tod des Mitarbeiters führen
+  - frage: In welcher First ist eine Unfallanzeige wem vorzulegen?
+    nr: 49
+    antwort: |-
+      Binnen drei Tagen der zuständigen Berufsgenossenschaft, bei Schwerstverletzten, Massenunfällen und/oder toten sofort

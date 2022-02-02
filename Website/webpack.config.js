@@ -15,13 +15,11 @@ const config = {
         use: "babel-loader",
         exclude: /node_modules/,
       },
-      /* Falls ein upgrade auf TypeScript gemacht wird.
       {
         test: /(d)?\.ts(x)?$/,
         loader: "ts-loader",
         exclude: /node_modules/,
       },
-      */
       {
         test: /(\.css$)/,
         use: ["style-loader", "css-loader", "postcss-loader"],
@@ -33,6 +31,10 @@ const config = {
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
         use: "url-loader?limit=100000",
+      },
+      {
+        test: /\.yaml$/,
+        use: "js-yaml-loader",
       },
     ],
   },

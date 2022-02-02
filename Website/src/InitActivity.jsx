@@ -1,13 +1,17 @@
 import React, { Component } from "react";
+import jss from "jss";
+import preset from "jss-preset-default";
 import {
   Page,
   Toolbar,
-  Button,
   BackButton,
   RouterNavigator,
   RouterUtil,
 } from "react-onsenui";
 import MainActivity from "./views/MainActivity";
+import styles from "./styles/styles";
+import addtionalStyles from "./styles/addtional";
+import markdownStyles from "./styles/markdown";
 
 class InitActivity extends Component {
   constructor(props) {
@@ -23,11 +27,17 @@ class InitActivity extends Component {
       },
     ]);
 
-    this.state = { routeConfig };
+    this.state = { routeConfig, currentPage: "main" };
   }
 
   componentDidMount = () => {
     window.addEventListener("load", this.windowLoadPush);
+
+    jss.setup(preset());
+
+    jss.createStyleSheet(styles).attach();
+    jss.createStyleSheet(addtionalStyles).attach();
+    jss.createStyleSheet(markdownStyles).attach();
   };
 
   componentWillUnmount = () => {
@@ -39,7 +49,15 @@ class InitActivity extends Component {
       history.pushState("jibberish", null, null);
       window.onpopstate = () => {
         history.pushState("newjibberish", null, null);
-        this.popPage();
+        if (this.state.currentPage === "main") {
+          if ((window, navigator.userAgent === "FPL")) {
+            window.Android.close();
+          } else {
+            window.close();
+          }
+        } else {
+          this.popPage();
+        }
       };
     } else {
       var ignoreHashChange = true;
@@ -54,13 +72,14 @@ class InitActivity extends Component {
     }
   };
 
-  pushPage(page, key, lfData, antwort) {
+  pushPage(page, key, lfData, antwort, nr) {
     const route = {
       component: page,
       props: {
         key: key,
         lfData: lfData,
         antwort: antwort,
+        nr: nr,
         popPage: () => this.popPage(),
         pushPage: (...args) => this.pushPage(...args),
       },
@@ -74,6 +93,7 @@ class InitActivity extends Component {
     });
 
     this.setState({ routeConfig });
+    this.setState({ currentPage: key });
   }
 
   popPage(options = {}) {

@@ -1,24 +1,18 @@
 package com.dergoogler.fpl;
 
 import android.annotation.SuppressLint;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.browser.customtabs.CustomTabColorSchemeParams;
-import androidx.browser.customtabs.CustomTabsIntent;
-import androidx.core.content.ContextCompat;
+import com.dergoogler.tools.fpl.Lib;
 
 import java.util.Objects;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     WebView webView;
-    String gUrl = "file:///android_asset/www/index.html";
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -33,32 +27,12 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setSupportZoom(false);
         webView.getSettings().setDomStorageEnabled(true);
-        webView.setWebViewClient(new myWebViewclient());
-        webView.loadUrl(gUrl);
+        webView.setWebViewClient(new WebAppClient(this));
+        webView.addJavascriptInterface(new WebAppInterface(webView), "Android");
+        webView.getSettings().setUserAgentString(Lib.getUserAgent());
+        webView.loadUrl(Lib.getURL());
 
 
-    }
-
-    public class myWebViewclient extends WebViewClient {
-
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            if (url.contains(gUrl)) {
-                view.loadUrl(url);
-            } else {
-                Uri uri = Uri.parse(url);
-                CustomTabsIntent.Builder intentBuilder = new CustomTabsIntent.Builder();
-                CustomTabColorSchemeParams params = new CustomTabColorSchemeParams.Builder()
-                        // .setNavigationBarColor(ContextCompat.getColor(MainActivity.this,R.color.background))
-                        .setToolbarColor(ContextCompat.getColor(MainActivity.this, R.color.colorPrimary))
-                        .setSecondaryToolbarColor(ContextCompat.getColor(MainActivity.this, R.color.colorPrimary))
-                        .build();
-                intentBuilder.setColorSchemeParams(CustomTabsIntent.COLOR_SCHEME_DARK, params);
-                CustomTabsIntent customTabsIntent = intentBuilder.build();
-                customTabsIntent.launchUrl(MainActivity.this, uri);
-            }
-            return true;
-        }
     }
 
     @Override

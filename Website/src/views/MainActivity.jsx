@@ -1,34 +1,49 @@
-import React from "react";
-import {
-  Button,
-  Card,
-  Col,
-  Page,
-  Row,
-  ToolbarButton,
-  Icon,
-} from "react-onsenui";
+import React, { useRef } from "react";
+import { Card, Page, ToolbarButton, Icon } from "react-onsenui";
 import AboutActivity from "./AboutActivity";
 import LfActivity from "./LfActivity";
 import MyToolbar from "./../components/Toolbar";
-
-// Feacher
-import lf1 from "../data/lf1";
-import lf2 from "../data/lf2";
-import lf3 from "../data/lf3";
-import lf4 from "../data/lf4";
-import lf5 from "../data/lf5";
-import lf6 from "../data/lf6";
-import lf7 from "../data/lf7";
-import lf8 from "../data/lf8";
+import lists from "../data/lists";
+import useOnScreen from "../hooks/useOnScreen";
 
 const MainActivity = ({ pushPage }) => {
+  const ref = useRef();
+  const titleHeaderRef = useRef();
+  const isVisible = useOnScreen(ref);
+  const isTitleHeaderVisible = useOnScreen(titleHeaderRef);
+
+  const cards = lists.map((item) => (
+    <>
+      {(() => {
+        if (item.options.display) {
+          return (
+            <Card
+              onClick={() => pushPage(LfActivity, item.title, item.fach)}
+              style={{
+                boxShadow: "none",
+                border: "2px solid #f55613",
+              }}
+            >
+              <div className="title" style={{ textAlign: "center" }}>
+                {item.title}
+              </div>
+              <div className="content" style={{ textAlign: "center" }}>
+                {item.content}
+              </div>
+            </Card>
+          );
+        } else {
+          return;
+        }
+      })()}
+    </>
+  ));
   return (
     <Page
       renderToolbar={() => (
         <MyToolbar
-          modifier="noshadow"
-          title=""
+          modifier={isVisible && "noshadow"}
+          title={!isTitleHeaderVisible && "FPL"}
           buttons={
             <div className="right">
               <ToolbarButton
@@ -44,6 +59,7 @@ const MainActivity = ({ pushPage }) => {
       )}
     >
       <div
+        ref={ref}
         style={{
           padding: "50px",
           paddingTop: "6px",
@@ -54,100 +70,9 @@ const MainActivity = ({ pushPage }) => {
           boxShadow: "rgba(0, 0, 0, 0.3) 0px 1px 5px",
         }}
       >
-        Fachpraktiker Lager
+        <span ref={titleHeaderRef}>Fachpraktiker Lager</span>
       </div>
-      <Card>
-        <div
-          style={{
-            textAlign: "center",
-          }}
-        >
-          <h3>1. Jahr</h3>
-          <Row>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf1", lf1)}>
-                Lernfeld 1
-              </Button>
-            </Col>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf2", lf2)}>
-                Lernfeld 2
-              </Button>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf3", lf3)}>
-                Lernfeld 3
-              </Button>
-            </Col>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf4", lf4)}>
-                Lernfeld 4
-              </Button>
-            </Col>
-          </Row>
-          <h3>2. Jahr</h3>
-          <Row>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf5", lf5)}>
-                Lernfeld 5
-              </Button>
-            </Col>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf6", lf6)}>
-                Lernfeld 6
-              </Button>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf7", lf7)}>
-                Lernfeld 7
-              </Button>
-            </Col>
-            <Col
-              style={{
-                padding: "8px",
-              }}
-            >
-              <Button onClick={() => pushPage(LfActivity, "lf8", lf8)}>
-                Lernfeld 8
-              </Button>
-            </Col>
-          </Row>
-        </div>
-      </Card>
+      <Card>{cards}</Card>
     </Page>
   );
 };

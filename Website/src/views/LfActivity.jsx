@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Button, Card, Page } from "react-onsenui";
 import AntwortActivity from "./AntwortActivity";
 import MyToolbar from "./../components/Toolbar";
 import Markdown from "markdown-to-jsx";
+import useOnScreen from "../hooks/useOnScreen";
 
 const LfActivity = ({ pushPage, popPage, lfData }) => {
+  const ref = useRef();
+  const titleHeaderRef = useRef();
+  const isVisible = useOnScreen(ref);
+  const isTitleHeaderVisible = useOnScreen(titleHeaderRef);
+
   const fragen = lfData.fragen.map((item) => (
     <Card>
-      <div className="title">Frage</div>
+      <div className="title">Frage #{item.nr}</div>
       <div className="content">
         <div
           style={{
@@ -20,7 +26,7 @@ const LfActivity = ({ pushPage, popPage, lfData }) => {
           <Button
             modifier="quiet"
             onClick={() => {
-              pushPage(AntwortActivity, "lf1", name, item.antwort);
+              pushPage(AntwortActivity, "lf1", name, item.antwort, item.nr);
             }}
           >
             Antwort anzeigen
@@ -34,9 +40,27 @@ const LfActivity = ({ pushPage, popPage, lfData }) => {
     <Page
       key={lfData.config.key}
       renderToolbar={() => (
-        <MyToolbar title={lfData.config.title} onBackButton={popPage} />
+        <MyToolbar
+          modifier={isVisible && "noshadow"}
+          title={!isTitleHeaderVisible && lfData.config.title}
+          onBackButton={popPage}
+        />
       )}
     >
+      <div
+        ref={ref}
+        style={{
+          padding: "50px",
+          paddingTop: "6px",
+          textAlign: "center",
+          backgroundColor: "rgb(245, 86, 19)",
+          color: "white",
+          fontSize: "30px",
+          boxShadow: "rgba(0, 0, 0, 0.3) 0px 1px 5px",
+        }}
+      >
+        <span ref={titleHeaderRef}>{lfData.config.title}</span>
+      </div>
       <div
         style={{
           textAlign: "center",

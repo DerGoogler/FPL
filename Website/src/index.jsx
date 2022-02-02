@@ -4,8 +4,7 @@ import InitActivity from "./InitActivity";
 
 // Webpack CSS import
 import "onsenui/css/onsenui.css";
-import "./styles/ons/onsen-css-components.css";
-import "./styles/styles.css";
+import ons from "onsenui";
 
 class Bootloader {
   mountNode = document.querySelector("app");
@@ -19,6 +18,7 @@ class Bootloader {
   }
 
   init() {
+    ons.platform.select("android");
     this.loadActivity();
   }
 }
