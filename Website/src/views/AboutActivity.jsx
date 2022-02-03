@@ -16,8 +16,8 @@ const AboutActivty = ({ pushPage, popPage }) => {
           <article class="markdown-body">
             <p>
               Dieses Projekt fällt unter die{" "}
-              <a href="https://choosealicense.com/licenses/gpl-3.0/">
-                GNU GPLv3
+              <a href="https://github.com/DerGoogler/FPL/blob/master/LICENSE">
+                BSL-1.0
               </a>{" "}
               Lizenz Text können frei verwendet werden.
             </p>
