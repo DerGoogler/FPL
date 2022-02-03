@@ -1,0 +1,312 @@
+config:
+  title: Lernfeld 1
+  key: lf1
+fragen:
+  - frage: 
+    nr: 1
+    antwort: |-
+      
+  - frage: 
+    nr: 2
+    antwort: |-
+      
+  - frage: 
+    nr: 3
+    antwort: |-
+      
+  - frage: Welche Informationsflüsse können unterschieden werden?
+    nr: 4
+    antwort: |-
+      Es können vier Arten unterschieden werden
+      - vorauslaufender Informationsfluss
+      - begleitender Informationsfluss
+      - nachlaufender Informationsfluss
+      - zurücklaufender Informationsfluss
+  - frage: 
+    nr: 5
+    antwort: |-
+      
+  - frage: Nennen Sie die Teilbereiche der Logistik innerhalb der Unternehmenslogistik
+    nr: 6
+    antwort: |-
+      Teilbereiche der Logistik innerhalb der Unternehmenslogistik
+      - Beschaffungslogistik
+      - Produktionslogistik
+      - Distributionslogistik
+      - Entsorgungslogistik
+      - Lagerlogistik
+  - frage: Nennen Sie drei Tätigkeiten im Wareneingang
+    nr: 7
+    antwort: |-
+      z. B. 
+      - Ware annehmen
+      - Ware kontrollieren
+      - Ware sortieren
+      - Ware vorverpacken
+      - Ware etikettiren
+      - Ware befördern
+      - Lagerplatz auswählen
+      - Ware einlagern
+  - frage: Nennen Sie drei Tätigkeiten im Warenlager
+    nr: 8
+    antwort: |-
+      z. B.
+      - Ware kontrollieren
+      - Ware pflegen
+      - Ware umlagern
+      - Ware sortieren
+      - Auftrag kommissionen
+      - Ladungseinheiten bilden
+      - Ware verpacken
+      - Ware befördern 
+  - frage: 
+    nr: 9
+    antwort: |-
+      
+  - frage: 
+    nr: 10
+    antwort: |-
+      
+  - frage: 
+    nr: 11
+    antwort: |-
+      
+  - frage: 
+    nr: 12
+    antwort: |-
+      
+  - frage: 
+    nr: 13
+    antwort: |-
+      
+  - frage: 
+    nr: 14
+    antwort: |-
+      
+  - frage: Welche Gliederung schlagen die Berufsgenossenschaften für die Betriebsanweisung vor?
+    nr: 15
+    antwort: |-
+      Gliederung einer Betriebsanweisung
+      - Anwendungsbereich
+      - Gefahren für Mensch und Umwelt
+      - Schutzmaßnahmen und Verhaltensregeln
+      - Verhalten bei Störungen
+      - Verhalten bei Unfällen, Erste Hilfe
+      - sachgerechte Entsorgungs/Instandhaltung
+  - frage: 
+    nr: 16
+    antwort: |-
+      
+  - frage: Nennen Sie drei Pflichtn des Arbeitnehmers zum Zwecke des Arbeitschutzes
+    nr: 17
+    antwort: |-
+      z. B.
+      - Anweisungen des Arbeitgebers einhalten
+      - persönliche Schutzausrüstung (PSA) tragen
+      - Arbeitsmittel und Einrichtungen nur bestimmungsgemäß verwenden
+      - Meldepflicht von Arbeitsunfällen
+      - Einrichtungen von Arbeitsstoffe nur mit Befugnis nutzen
+      - Verbot von Alkohol- und Betäubungsmittelkonsum einhalten
+  - frage: 
+    nr: 18
+    antwort: |-
+      
+  - frage: Nennen Sie drei Anforderungen, die an die persönliche Schutzausrüstung (PSA) gestellt werden.
+    nr: 19
+    antwort: |-
+      z. B.
+      - Die PSA is grundsätzlich nur für den Gebrauch durch eine Person bestimmt.
+      - Die PSA muss den Beschäftigten individuell passen.
+      - Die PSA muss ausreichend vor der jeweiligen Gefahr schützen
+      - Die PSA muss mit einer CE-Kennzeichnung versehen sein.
+      - Die PSA muss sich stets in hygienisch einwandfreien befinden.
+  - frage: Geben Sie drei Beispiele für persönliche Schutzausrüstungen und erklären Sie, vor welchen Gefahren diese schützen
+    nr: 20
+    antwort: |-
+      z. B.
+      - Schutzschuhe: Schutz der Füße vor Überrollen, Einklemmen und das Hineintreten in spitze Gegenstände
+      - Schutzhandschue: Schutz der Hände vor Verletzungen z. B. durcj Schneiden oder Quetschen
+      - Schutzbrille: Schutz der Augen und des Gesichts vor Verletzungen z. B. durch wegfliegende Teile
+  - frage: 
+    nr: 21
+    antwort: |-
+      
+  - frage: 
+    nr: 22
+    antwort: |-
+      
+  - frage: 
+    nr: 23
+    antwort: |-
+      
+  - frage: 
+    nr: 24
+    antwort: |-
+      
+  - frage: 
+    nr: 25
+    antwort: |-
+      
+  - frage: 
+    nr: 26
+    antwort: |-
+      
+  - frage: 
+    nr: 27
+    antwort: |-
+      
+  - frage: Wie erfolgt der Eigentumserwerb bei beweglichen Sachen?
+    nr: 28
+    antwort: |-
+      Bei beweglichen Sachen erfolgt der Eigentumserwerb durch Einigung und Übergabe der Sache.
+  - frage: 
+    nr: 29
+    antwort: |-
+      
+  - frage: 
+    nr: 30
+    antwort: |-
+      
+  - frage: 
+    nr: 31
+    antwort: |-
+      
+  - frage: 
+    nr: 32
+    antwort: |-
+      
+  - frage: 
+    nr: 33
+    antwort: |-
+      
+  - frage: Nennen Sie zwei Beispiele für Rechtsgeschäfte, bei den denen die Abgabe der Willenserklärung an eine bestimmte Form gebunden ist.
+    nr: 34
+    antwort: |-
+      Formgebundene Rechtsgeschäfte sind z. B. der Berufsausbildungsvertrag, des Testament oder der Grundstückskauf
+  - frage: 
+    nr: 35
+    antwort: |-
+      
+  - frage: 
+    nr: 36
+    antwort: |-
+      
+  - frage: 
+    nr: 37
+    antwort: |-
+      
+  - frage: 
+    nr: 38
+    antwort: |-
+      
+  - frage: 
+    nr: 39
+    antwort: |-
+      
+  - frage: 
+    nr: 40
+    antwort: |-
+      
+  - frage: 
+    nr: 41
+    antwort: |-
+      
+  - frage: 
+    nr: 42
+    antwort: |-
+      
+  - frage: 
+    nr: 43
+    antwort: |-
+      
+  - frage: 
+    nr: 44
+    antwort: |-
+      
+  - frage: 
+    nr: 45
+    antwort: |-
+      
+  - frage: 
+    nr: 46
+    antwort: |-
+      
+  - frage: 
+    nr: 47
+    antwort: |-
+      
+  - frage: Welche Prüfverfahren können bei der Warenprüfung unterschieden werden? Nennen und erläutern Sie diese
+    nr: 48
+    antwort: |-
+      Zerstörungsfreies Prüfverfahren:
+      Hierbei wird die Ware nicht beschädigt, z. B. durch Zählen, Messen und Wiegen.
+
+      Zerstörendes Prüfverfahren:
+      Hierbei wird die Ware in der Regel veschädigt bzw. völlig zerstört. Durchgeführt werden z. B. Crash-, Brand-, Bruch-, und Belastungstests
+  - frage: Was versteht man unter der Bildung "logistischer Einheiten" im Wareneingang
+    nr: 49
+    antwort: |-
+      Die Waren werden so zusammengestellt und verpackt, dasss die Lagereinheit gleich der Kommissioniereinheiten und diese gleich der Bestelleinheit der Kunden ist.
+  - frage: 
+    nr: 50
+    antwort: |-
+      
+  - frage: Welche Kaufvertragsstörungen können unterschieden werden?
+    nr: 51
+    antwort: |-
+      Kaufvertragsstörungen
+      - Mngelhafte Lieferung
+      - Lieferungsverzug
+      - Annahmeverzug
+      - Zahlungsverzug
+  - frage: Welche Mangelarten können nach der Erkennbarkeit unterschieden werden?
+    nr: 52
+    antwort: |-
+      Mangearten nach der Erkennbarkeit
+      - offender Mangel
+      - versteckter Mangel
+      - arglistih verschwiegerner Mangel
+  - frage: 
+    nr: 53
+    antwort: |-
+      
+  - frage: 
+    nr: 54
+    antwort: |-
+      
+  - frage: 
+    nr: 55
+    antwort: |-
+      
+  - frage: 
+    nr: 56
+    antwort: |-
+      
+  - frage: 
+    nr: 57
+    antwort: |-
+      
+  - frage: 
+    nr: 58
+    antwort: |-
+      
+  - frage: 
+    nr: 59
+    antwort: |-
+      
+  - frage: 
+    nr: 60
+    antwort: |-
+      
+  - frage: 
+    nr: 61
+    antwort: |-
+      
+  - frage: 
+    nr: 62
+    antwort: |-
+      
+  - frage: 
+    nr: 63
+    antwort: |-
+      
