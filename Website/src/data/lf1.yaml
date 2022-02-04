@@ -331,92 +331,52 @@ fragen:
     nr: 53
     antwort: |-
       Der Verkäufer kann dem Käufer nicht das Eigentum an der Ware verschaffen. Bei de gelieferten Ware handelt es sich z. B. um Hehlerware oder verpfändete Ware.
-  - frage: 
-    nr: 54
-    antwort: |-
-      
-  - frage: 
-    nr: 55
-    antwort: |-
-      
-  - frage: 
-    nr: 56
-    antwort: |-
-      
-  - frage: 
-    nr: 57
-    antwort: |-
-      
-  - frage: 
-    nr: 58
-    antwort: |-
-      
-  - frage: 
-    nr: 59
-    antwort: |-
-      
-  - frage: 
-    nr: 60
-    antwort: |-
-      
-  - frage: 
-    nr: 61
-    antwort: |-
-      
-  - frage: 
-    nr: 62
-    antwort: |-
-      
-  - frage: 
-    nr: 63
-    antwort: |-
-      
   - frage: Was bedeutet **NVE**?
-    nr: 63
+    nr: 54
     antwort: |-
       Nummer der Versandeinheit ist eine weltweit eindeutige Nummer zur Identifikation von Versandeinheiten.
   - frage: Was ist die **GTIN**?
-    nr: 63
+    nr: 55
     antwort: |-
       Die GTIN (Global Trade Item Number) ist die globale Artikelidentnummer. Sie setzt sich zusammen aus der Nummer für das Hestellungsland, der Herstellernummer, der Artikelnummer und der Prüfziffer.
   - frage: Was ist ein Barcode?
-    nr: 63
+    nr: 56
     antwort: |-
       Ein Barcode ist eine maschinenlesbare Schrift und besteht aus verschieden breiten, parallelen Strichen und Lücken, in denen Daten verschlüsselt sind.
   - frage: Welche Barcodes können unterschieden werden?
-    nr: 63
+    nr: 57
     antwort: |-
       1-D-Code:
       Informationen sind nur waagrecht codiert, als eindimensional (z.B. GTIN, Code 128)
       2-D-Codes:
       Informationen sind waagrecht und senkrecht codiert, also zweidimensional (z.B. QR-Code, Code 49)
   - frage: Was versteht man unter der Bildung „logistischer Einheiten" im Wareneingang?
-    nr: 63
+    nr: 58
     antwort: |-
       Die Waren werden so zusammengestellt und verpackt, dass die Lagereinheit gleich der Kommissionierheit und diese gleich der Bestelleinheit der Kunden ist.
   - frage: Welche Arbeiten erfolgen nach der Warenkontrolle?
-    nr: 63
+    nr: 59
     antwort: |-
       - Erstellung eines Wareneingangsscheins
       - Bildung logistischer Einheiten
       - Bestandserfassung
       - Freigabe der Ware
   - frage: Welche Prüfverfahren können bei der Warenprüfung unterschieden werden? Nennen und erläutern Sie diese.
-    nr: 63
+    nr: 60
     antwort: |-
       Zerstörungsfreies Prüfverfahren:
       Hierbei wird die Ware nicht beschädigt, z.B. durch Zählen, Messen und Wiegen.
       Zerstörendes Prüfverfahren:
       Hierbei wird die Ware in der Regel beschädigt bzw. völlig zerstört. Durchgeführt werden z.B. Crash-, Brand-, Bruch- und Belastungstests.
   - frage: Welche Arten der Warenprüfung können unterschieden werden? Nennen und erläutern Sie diese.
-    nr: 63
+    nr: 61
     antwort: |-
       Stichprobenartige Kontrolle:
       Nur einzelne Packstücke werden kontrolliert.
       Vollständige Kontrolle:
       Die komplette Lieferung wird kontrolliert.
   - frage: Was ist die Warenkontrolle?
-    nr: 63
+    nr: 62
     antwort: |-
       Die Warenkontrolle erfolgt unverzüglich nach der Warenannahme, hierbei wird die Ware auf offene Mängel überprüft:
       - Identität
@@ -428,13 +388,13 @@ fragen:
     antwort: |-
       Sie sollte separiert werden, d.h. von den anderen Waren getrennt gelagert und evtl. mit einem Sperrvermerk versehen werden, bis geklärt ist, ob die Ware selbst auch Mängel aufweist.
   - frage: Welche Rügefristen gelten bei Transportschäden?
-    nr: 63
+    nr: 64
     antwort: |-
       Offene Mängel müssen sofort bei der Anlieferung dem Frachtführer/Fahrer angezeigt werden.
 
       Versteckte Mängel sind unverzüglich nach Entdeckung, aber innerhalb von 7 Tagen nach Anlieferung dem Frachtführer anzuzeigen.
   - frage: Nennen Sie drei Möglichkeiten zur Dokumentation festgestellter Transportschäden im Wareneingang.
-    nr: 63
+    nr: 65
     antwort: |-
       z.B.
       - Eintragung im Lieferschein oder Frachtbrief
@@ -444,7 +404,7 @@ fragen:
       - Transportschadenbericht
       - Heranziehung von Zeugen
   - frage: Nennen Sie drei mögliche Beschädigungen an EUR-Paletten.
-    nr: 63
+    nr: 66
     antwort: |-
       z.B.
       - abgesplittertes Boden- oder Deckenrandbrett
@@ -456,11 +416,11 @@ fragen:
       - starke Verunreinigungen
       - Reparaturen mit unzulässigen Bauteilen
   - frage: Wer haftet für die im Wareneingang festgestellten Transportschäden, und wer haftet für festgestellte Sachschäden?
-    nr: 63
+    nr: 67
     antwort: |-
       Für Transportschäden haftet der Frachtführer, und für Sachschäden haftet der Absender.
   - frage: Welche Kontrollen sind in Anwesenheit des Zustellers durchzuführen?
-    nr: 63
+    nr: 68
     antwort: |-
       Folgende Kontrollen sind in Anwesenheit des Zustellers durchzuführen:
       - Kontrolle der Lieferanschrift
@@ -469,11 +429,11 @@ fragen:
       - Kontrolle der Mehrwegverpackungen auf Unversehrtheit
       - Quittierung der Warenannahme durch Unterschrift und Stempel
   - frage: Was ist der Frachtbrief?
-    nr: 63
+    nr: 69
     antwort: |-
       Der Frachtbrief wird vom Absender erstellt und beweist das Zustandekommen eines Frachtvertrages zwischen Absender und Frachtführer.
   - frage: Nennen Sie die Funktionen eines Lieferscheins.
-    nr: 63
+    nr: 70
     antwort: |-
       Kontrollfunktion:
       Abgleich des der Bestellung mithilfe des Lieferscheins.
