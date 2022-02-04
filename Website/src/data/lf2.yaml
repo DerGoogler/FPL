@@ -2,11 +2,619 @@ config:
   title: Lernfeld 2
   key: lf2
 fragen:
-  - frage: 
+  - frage: Nennen Sie die Aufgaben der Lagerhaltung.
     nr: 1
     antwort: |-
-      
-  - frage: 
+      - Sicherungsaufgabe
+      - Ausgleichsaufgabe
+      - Umformungsaufgabe
+      - Spekulationsaufgabe
+      - Veredelungsaufgabe
+  - frage: Erläutern Sie die Sicherungsaufgabe.
     nr: 2
     antwort: |-
-      
+      Güter werden gelagert, um den Produktionsprozess gegen Störungen bei der Warenbeschaffung zu sichern und eine stetige Lieferbereitschaft zu gewährleisten.
+  - frage: Erläutern Sie die Ausgleichsaufgabe.
+    nr: 3
+    antwort: |-
+      Güter werden gelagert, um einen zeitlichen und mengenmäßigen Ausgleich zwischen Warenbeschaffung, Produktion und Absatz zu erreichen.
+  - frage: Erläutern Sie die Umformungsaufgabe.
+    nr: 4
+    antwort: |-
+      Güter werden in großen Mengen und Behältern angeliefert und müssen dann in kleinere bedarfsgerechte Mengen und Portionen umgeformt werden.
+  - frage: Erläutern Sie die Spekulationsfunktion.
+    nr: 5
+    antwort: |-
+      Güter werden gelagert, um mit Kosten- und Preisvorteilen zu spekulieren.
+  - frage: Erläutern Sie die Veredelungsaufgabe.
+    nr: 6
+    antwort: |-
+      Erst durch die Lagerung gewinnen die Güter die gewünschte Reife und Qualität.
+  - frage: Nennen Sie die Grundsätze ordnungsgemäßer Lagerhaltung.
+    nr: 7
+    antwort: |-
+      - Sauberkeit
+      - Geräumigkeit
+      - Übersichtlichkeit
+      - artgerechte Lagerung
+      - sachgerechte Lagerhaltung
+  - frage: Nennen Sie mindestens vier Gefahren, vor denen Güter während der Lagerung geschützt werden sollten.
+    nr: 8
+    antwort: |-
+      z.B.
+      - Sonne/Licht
+      - Geschmacksverlust
+      - Feuchtigkeit
+      - Schädlinge
+      - Wärme/Kälte
+      - Austrocknung
+  - frage: Welche Lagerarten können entsprechend der Güterarten und Eigenschaften unterschieden werden? Nennen Sie vier Lagerarten.
+    nr: 9
+    antwort: |-
+      z.B.
+      - Verschlusslager
+      - Kleinteilelager
+      - Schüttgutlager
+      - Stückgutlager
+      - temperaturgeführtes Lager
+      - Sperrigwarenlager
+      - Gefahrstofflager
+  - frage: Was sind Rohstoffe?
+    nr: 10
+    antwort: |-
+      Rohstoffe sind Stoffe, die unmittelbar in das zu fertigende Produkt eingehen und dessen Hauptbestandteil bilden, z.B. Holz bei einem Kleiderschrank.
+  - frage: Was sind Betriebsstoffe?
+    nr: 
+    antwort: |-
+      Betriebsstoffe sind Stoffe, die nicht direkt in das zu fertigende Produkt eingehen, aber den Produktionsprozess in Gang halten, z.B. Benzin, Schmieröl oder Strom.
+  - frage: Was sind Hilfstoffe?
+    nr: 11
+    antwort: |-
+      Hilfstoffe sind Stoffe, die in das zu fertigende Produkt eingehen, aber nur eine Hilfsfunktion haben, z.B. Schrauben, Leim, Farben und Lacke.
+  - frage: Nennen Sie zwei Beispiele für ein Sonderlager im Industriebetrieb.
+    nr: 12
+    antwort: |-
+      z.B.
+      - Ersatzteilelager
+      - Werkzeuglager
+      - Büromateriallager
+      - Packmittellager
+  - frage: Welche Lagerarten können im Industriebetrieb unterschieden werden?
+    nr: 13
+    antwort: |-
+      - Roh-, Hilfs- und Betriebsstofflager
+      - Zwischenlager
+      - Fertigwarenlager
+      - Handlager
+      - Sonderlager
+  - frage: Welche Lagerarten können im Großhandel unterschieden werden?
+    nr: 14
+    antwort: |-
+            - Auslieferungslager
+      - Kommissionslager
+  - frage: Was ist ein Kommissionslager?
+    nr: 15
+    antwort: |-
+      Das Kommissionslager ist ein Lager des Lieferanten beim Kunden, aus dem sich der Kunde die benötigte Ware entnimmt.
+  - frage: 
+    nr: 16
+    antwort: |-
+      Welche Lagerarten können im Einzelhandel unterschieden werden?
+  - frage: Welche Lagerarten können im Einzelhandel unterschieden werden?
+    nr: 17
+    antwort: |-
+      - Verkaufslager
+      - Reservelager
+  - frage: Welche Lagerarten können in der Spedition unterschieden werden?
+    nr: 18
+    antwort: |-
+      - Auslieferungslager
+      - Umschlaglager
+  - frage: Nennen Sie je zwei Vor- und Nachteile eines zentralen Lagers.
+    nr: 19
+    antwort: |-
+      Vorteile sind z.B.
+      - Gesamtbedarf leichter feststellbar
+      - niedrigere Kapitalbindung
+      - höhere Flächen-/Raumausnutzung
+      - größere Einkäufe senken die Beschaffungskosten
+
+      Nachteile sind z.B.
+      - längere Transportwege
+      - höhere Transportkosten
+      - längere Transportzeiten
+  - frage: Nennen Sie je zwei Vor- und Nachteile eines dezentralen Lagers.
+    nr: 20
+    antwort: |-
+      Vorteile sind z.B.
+      - leichtere Abstimmung
+      - schnellerer Informationsfluss
+      - kürzere Transportwege
+      - geringere Transportkosten
+      - kürzere Transportzeiten
+
+      Nachteile sind z.B.
+      - höhere Kosten für Einrichtung
+      - höhere Kosten für Warenvorräte
+      - höherer Personalbedarf
+  - frage: Welche Lagerarten können nach dem Witterungsschutz unterschieden werden?
+    nr: 21
+    antwort: |-
+      - offenes Lager
+      - halboffenes Lager
+      - geschlossenes Lager
+  - frage: Nennen Sie drei Gründe für die Fremdlagerung bei einem gewerblichen Lagerhalter oder einer Spedition.
+    nr: 22
+    antwort: |-
+      z.B.
+      - als Spitzenausgleich bei schwankendem Bestand (z.B. Saisonware)
+      - bei fehlenden Lagerkapazitäten
+      - bei fehlenden besonderen Einrichtungen (z.B. Kühllager, Gefahrstofflager)
+      - zur Nutzung des Know-How des Lagerhalters
+  - frage: Wie lassen sich fixe Kosten und variable Kosten unterscheiden?
+    nr: 23
+    antwort: |-
+      Fixe Kosten:
+      Sie sind über einen bestimmten Zeitraum gleich, unabhängig von der eingelagerten Menge, z.B. Miete, Versicherungen, Gehälter.
+
+      Variable Kosten:
+      Sie sind abhängig von der eingelagerten Menge, z.B. Energiekosten, Instandhaltungskosten, Überstundenzuschläge.
+  - frage: Welche Kosten fallen bei der Eigenlagerung und welche bei der Fremdlagerung an?
+    nr: 24
+    antwort: |-
+      Eigenlagerung:
+      Fixe Kosten und variable Kosten
+
+      Fremdlagerung:
+      Nur variable Kosten
+  - frage: Was ist die kritische Lagermenge?
+    nr: 25
+    antwort: |-
+      Die kritische Lagermenge ist die Menge bei der die Kosten der Eigenlagerung und die Kosten der Fremdlagerung gleich hoch sind.
+  - frage: Wie wird die kritische Menge berechnet?
+    nr: 26
+    antwort: |-
+      Kosten Fremdlagerung = Kosten Eigenlagerung
+      z.B. 40 x = 9000 + 25 X | - 25 x
+      15 x = 9000 | : 15
+      x = 600
+      Liegt die geplante Lagermenge unterhalb der kritischen Lagermenge, dann ist die Fremdlagerung günstiger, liegt sie oberhalb, dann ist die Eigenlagerung günstiger.
+  - frage: Welche Lagerscheinarten können unterschieden werden?
+    nr: 27
+    antwort: |-
+      - Inhaberlagerschein
+      - Namenslagerschein
+      - Orderlagerschein
+  - frage: Was versteht man unter „Outsourcing"?
+    nr: 28
+    antwort: |-
+      Unter Outsourcing versteht man die Ausgliederung von Unternehmensleistungen, die bisher innerhalb des Unternehmens erbracht wurden, an Fremdfirmen, sogenannte Logistikdienstleister.
+  - frage: Das Lager lässt sich entsprechend dem Durchlauf der Güter in verschiedene Funktionsbereiche einteilen. Welche sind das?
+    nr: 29
+    antwort: |-
+      - Wareneingangsbereich
+      - Lagerbereich
+      - Kommissionierbereich
+      - Verpackungsbereich
+      - Warenausgangsbereich
+      - Lagerverwaltung
+  - frage: Welches sind die häufigsten Anordnungsformen von Wareneingangs- und Warenausgangsbereich im Lagergebäude?
+    nr: 30
+    antwort: |-
+      - I-Layout
+      - U-Layout
+      - L-Layout
+  - frage: Was versteht man unter dem „I-Layout"?
+    nr: 31
+    antwort: |-
+      Das I-Layout ist eine Anordnungsform von Wareneingangs- und Warenausgangsbereich im Lagergebäude. Beim I-Layout durchläuft die Ware geradlinig das gesamte Lager vom Wareneingang bis zum Warenausgang.
+  - frage: Nach welchen Kriterien kann die Aufteilung des Lagerbeichs in Lagerzonen erfolgen? Nennen Sie drei Kriterien.
+    nr: 32
+    antwort: |-
+      z.B.
+      - nach dem Gewicht und dem Volumen der Güter
+      - nach der Umschlagshäufigkeit der Güter
+      - nach dem Wert der Güter
+      - nach der Empfindlichkeit der Güter
+      - nach der Gefährlichkeit der Güter
+  - frage: Was versteht man unter einer numerischen Location nach dem dekadischen Prinzip?
+    nr: 33
+    antwort: |-
+      Numerisch bedeutet, dass das Lagerplatznummernsystem nur aus Zahlen besteht.
+      Dekadisch bedeutet, dass die einzelnen Nummern immer zweistellig sind, z.B. 03 02 05
+  - frage: Welche beiden Wegstrategien können unterschieden werden?
+    nr: 34
+    antwort: |-
+      Rundgangstrategie und Stichgangstrategie
+  - frage: Welche Verfahren gibt es zur Berechnung der Prüfziffer?
+    nr: 35
+    antwort: |-
+      - Modulo-11-Verfahren (bis 10 Stellen)
+      - Modulo-10-Verfahren (11 oder mehr Stellen)
+  - frage: Was ist ein Doppelspiel?
+    nr: 36
+    antwort: |-
+      Ein Regalbediengerät nimmt auf der Hinfahrt eine Einlagerung und auf der Rückfahrt gleichzeitig eine Auslagerung vor.
+  - frage: Erläutern Sie das Festplatzsystem und das Freiplatzsystem.
+    nr: 37
+    antwort: |-
+      Beim Festplatz wird jedem Artikel ein eigener, fester Lagerplatz zugeordnet.
+      Beim Freiplatzsystem werden die Artikel dort eingelagert, wo gerade ein freier Lagerplatz vorhanden ist.
+  - frage: Nennen Sie je drei Vor- und Nachteile des Festplatzsystems.
+    nr: 38
+    antwort: |-
+      Vorteile sind z.B.
+      - Mitarbeiter kennen die Einlagerungsplätze der einzelnen Artikel
+      - kein EDV-System erforderlich
+      - Verkürzung der Wegzeiten durch Einlagerung der Artikel nach der Gängigkeit
+
+      Nachteile sind z.B.
+      - geringe Ausnutzung des Lagerfachvolumens bei geringem Bestand
+      - hoher Änderungsaufwand bei Neubelegung von Fächern
+      - Leerplätze bei Wegfall von Artikeln
+  - frage: Nennen Sie je drei Vor- und Nachteile des Freiplatzsystems.
+    nr: 39
+    antwort: |-
+      Vorteile sind z.B.
+      - bessere Ausnutzung der Lagerfläche
+      - Sortiments- und Mengenänderungen sind problemlos möglich
+      - Mitarbeiter müssen sich keine Lagerplätze merken
+
+      Nachteile sind z.B.
+      - EDV-System erforderlich
+      - Auffinden von Lagerplätzen fast nur mithilfe von EDV möglich
+      - Gefahr des völligen Stillstands bei Ausfall der EDV-Anlage
+  - frage: Nennen und erläutern Sie die drei Einlagerungsgrundsätze.
+    nr: 40
+    antwort: |-
+      FIFO-Prinzip (First-In-First-Out):
+      Zuerst eingelagerte Ware wird auch als erstes wieder ausgelagert.
+      LIFO-Prinzip (Last-In-First-Out):
+      Zuletzt eingelagerte Ware wird als erstes wieder ausgelagert.
+      HIFO-Prinzip (Highest-In-First-Out):
+      Rechnerisch wird so getan, als ob die am teuersten erworbenen Artikel als erstes verbraucht werden.
+      FEFO-Prinzip (First-Expired-First-Out)
+  - frage: Berechnung der Prüfziffer durch Module-11-Verfahren und Module-10-Verfahren.
+    nr: 41
+    antwort: |-
+      Modulo-11-Verfahren:
+      Faktor von rechts nach links 2, 3, 4, 5, uws.
+
+      Module-10-Verfahren:
+      Faktor von rechts nach links 3, 1, 3, 1, 3, usw.
+  - frage: Was versteht man unter dem Begriff Komplettierung?
+    nr: 42
+    antwort: |-
+      Das Zusammenfassen von Sets bzw. Kombinationspackungen bezeichnet man als Komplettierung.
+  - frage: Wie können Einlagerungen dokumentiert werden?
+    nr: 43
+    antwort: |-
+      - Lagerfachkarte und Lagerkarte
+      - EDV-gestütztes Warenwirtschaftssystem im Lager
+  - frage: Wie kann Schüttgut gelagert werden?
+    nr: 44
+    antwort: |-
+      Schüttgut kann auf dem Boden (auf Halde) oder in speziellen Behältern (z.B. Silos oder Bunkern) gelagert werden.
+  - frage: Nennen Sie drei statische Lagersysteme.
+    nr: 45
+    antwort: |-
+      z.B.
+      - Fachbodenregal
+      - Palettenregal
+      - Einfahr- und Durchfahrregale
+      - Kragarmregal
+      - Waben- bzw. Kassettenregal
+      - Turmregal
+      - Kanal- bzw. Tunnelregal
+      - automatische Behälterregale
+      - Hochregale
+  - frage: Nennen Sie drei dynamische Lagersysteme.
+    nr: 46
+    antwort: |-
+      z.B.
+      - Einschubregale
+      - Durchlaufregale
+      - Verschieberegale
+      - Umlaufregale
+  - frage: Wodurch unterscheiden sich Zeilenlagerung und Blocklagerung?
+    nr: 47
+    antwort: |-
+      Bei der ungestapelten Zeilenlagerung ist ein direkter Zugriff auf alle Lagereinheiten jederzeit möglich.
+      Bei einer Blocklagerung Ist dies nicht möglich.
+  - frage: Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.
+    nr: 48
+    antwort: |-
+      Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.
+  - frage: Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.   
+    nr: 49
+    antwort: |-
+      Die Blocklagerung eignet sich für Güter gleicher Art in großen Mengen sowie zur Lagerung von Langsamdrehern. Außerdem sollte es sich um nicht verderbliche Güter bzw. Waren mit einem langen Haltbarkeitsdatum handeln.
+  - frage: Nennen Sie je zwei Vor- und Nachteile der Blocklagerung.
+    nr: 50
+    antwort: |-
+      Vorteile sind z.B.
+      - keine Kosten für Lagereinrichtungen
+      - hohe Flächen- und Raumausnutzung
+      - einfache Organisation
+      - geringe Störanfälligkeit
+      Nachteile sind z.B.
+      - LIFO-Prinzip
+      - Zugriff auf jede Lagereinheit nur durch Umstapeln möglich
+      - begrenzte Stapelhöhe
+      - schlecht mechanisierbar
+  - frage: Wie hoch ist die maximale Tragfähigkeit einer EUR-Palette?
+    nr: 51
+    antwort: |-
+      Maximal 1000 kg bis 2000 kg
+  - frage: Wie hoch ist die maximale Tragfähigkeit einer Gitterboxpalette?
+    nr: 52
+    antwort: |-
+      Maximal 1000 kg
+  - frage: Wie viele Gitterboxpaletten dürfen höchstens aufeinander gestapelt werden?
+    nr: 53
+    antwort: |-
+      Es dürfen höchstens 5 Gitterboxpaletten aufeinander gestapelt werden.
+  - frage: Was ist beim Stapeln schwerer und leichter Lasten zu beachten?
+    nr: 54
+    antwort: |-
+      Schwere Lasten sind unten, leichte Lasten oben zu stapeln.
+  - frage: Nennen Sie drei Zubehörteile für Fachbodenregale.
+    nr: 55
+    antwort: |-
+      z.B.
+      - ausziehbare Fachböden
+      - Schubladen
+      - Trennbleche
+      - Seiten- und Rückwände
+      - Lagersichtkästen
+      - Lagerwannen
+      - Flügeltüren
+  - frage: Welche beiden Arten von Palettenregalen können unterschieden werden?
+    nr: 56
+    antwort: |-
+      Längstraversenregal und Quertraversenregal
+  - frage: Welches ist die maximale Höhe von Flachlagern, Hochflachlagern und Hochregallagern?
+    nr: 57
+    antwort: |-
+      Flachlager-> bis ca. 7 m Höhe
+      Hochflachlager -> bis ca. 12 m Höhe
+      Hochregallager -> bis ca. 45 m Höhe
+  - frage: Nach welchem Einlagerungsgrundsatz erfolgt die Ein- und Auslagerung bei einem Einfahrregal?
+    nr: 58
+    antwort: |-
+      Nach dem LIFO-Prinzip
+  - frage: Nach welchem Einlagerungsgrundsatz erfolgt die Ein- und Auslagerung bei einem Durchfahrregal?
+    nr: 59
+    antwort: |-
+      Nach welchem Einlagerungsgrundsatz erfolgt die Ein- und Auslagerung bei einem Durchfahrregal?
+  - frage: Was versteht man unter einem „Kuli" in einem Kanalregal?
+    nr: 60
+    antwort: |-
+      Kuli ist der Lastschlitten, der die Ladeeinheit im jeweiligen Kanal transportiert.
+  - frage: Nennen Sie je drei Vor- und Nachteile eines Durchlaufregals.
+    nr: 61
+    antwort: |-
+      Vorteile sind z.B.
+      - hohe Flächenausnutzung
+      - hohe Artikelvielfalt auf engstem Raum
+      - Einhaltung des FIFO-Prinzips
+      - hohe Kommissionierleistung
+      - Trennung von Beschickung und Entnahme
+      Nachteile sind z.B.
+      - hohe Investitionskosten
+      - durch sortenreine Kanäle sind diese nur teilweise befüllt
+      - Störanfälligkeit
+  - frage: Über welche Seite erfolgt die Ein- und Auslagerung bei einem Wabenregal?
+    nr: 62
+    antwort: |-
+      Die Ein- und Auslagerung erfolgt über die Stirnseite.
+  - frage: Worin werden Kleinteile in einem automatischen Kleinteilelager gelagert?
+    nr: 63
+    antwort: |-
+      Die Lagerung erfolgt in Behältern, Tablaren, Lagerwannen oder Kartons.
+  - frage: Nennen Sie je drei Vor- und Nachteile eines automatischen Kleinteilelagers.
+    nr: 64
+    antwort: |-
+      Vorteile sind z.B.
+      - hohe Flächen- und Raumausnutzung
+      - Bereitstellung Ware zum Mann
+      - vor Schmutz/Diebstahl geschützte Lagerung im geschlossenen System
+      - keine Wegzeiten, da Ware zum Mann
+      Nachteile sind z.B.
+      - hohe Investitionenskosten
+      - regelmäßige Wartung
+      - für große und sperrige Güter ungeeignet
+  - frage: Was passiert im Hochregallager am sogenannten Identifikationspunkt?
+    nr: 65
+    antwort: |-
+      Beim Passieren des I-Punktes werden von den einzulagernden Lagergütern bestimmte Informationen (z.B. Warenart, Artikelnummer, Gewicht, Menge usw.) mittels Sensoren oder Scannern erfasst. Überprüft werden außerdem die Konturen der Lagereinheit und der Zustand der Paletten.
+  - frage: Was passiert im Hochregallager am sogenannten Kontrollpunkt?
+    nr: 66
+    antwort: |-
+      Bei der Auslagerung wird am Kontrollpunkt zum einen Überprüft, ob die richtige Lagereinheit ausgelagert wurde, und zum anderen wird die Auslagerung vom Lagerverwaltungssystem erfasst.
+  - frage: Welche Bauweisen für ein Hochregallager können unterschieden werden?
+    nr: 67
+    antwort: |-
+      Betonbauweise (das Einbauhochregallager) und Silobauweise
+  - frage: Wo ist das Lagern von Gegenständen grundsätzlich verboten?
+    nr: 68
+    antwort: |-
+      Das Lagern von Gegenständen ist verboten
+      - vor elektrischen Verteilern und Schaltanlagen
+      - vor Einrichtungen zur Ersten Hilfe
+      - vor Feuerlöschgeräten
+      - in Verkehrs- und Rettungswegen.
+  - frage: Erläutern Sie die Begriffe Fachlast und Feldlast.
+    nr: 69
+    antwort: |-
+      Fachlast ist diejenige Last, die von einer Regalseite in ein Regalfach eingebracht werden kann.
+      Feldlast ist die Summe aller Fachlasten in einem Regalfeld, wobei eine gleichmäßige Lastverteilung zugrunde gelegt wird.
+  - frage: Was versteht man unter der Stützweite bei einem Regal?
+    nr: 70
+    antwort: |-
+      Die Stützweite ist der Abstand zwischen zwei Auflagen in einem Regal.
+  - frage: Wie wird die maximale Durchbiegung bei Fächern berechnet?
+    nr: 71
+    antwort: |-
+      Bei metallischen Werkstoffen:
+      1/200 der Stützweite in mm
+      Bei Holz und Kunststoff:
+      1/150 der Stützweite in mm
+  - frage: Was sind Gefahrstoffe?
+    nr: 72
+    antwort: |-
+      Gefahrstoffe sind Stoffe oder Zubereitung, die gefährliche oder schädliche Eigenschaften für Mensch und Unwelt haben.
+  - frage: Wie müssen Fußböden in einem Gefahrstofflager beschaffen sein?
+    nr: 73
+    antwort: |-
+      Die Fußböden müssen für das Lagergut undurchlässig sein und aus nicht brennbarem Material bestehen.
+  - frage: Wer erlässt die Gesetze, Verordnungen, Vorschriften und Regeln zum Arbeits- und Unweltschutz?
+    nr: 74
+    antwort: |-
+      Sie werden erlassen von Staat, den Berufsgenossenschaften und privaten Organisationen.
+  - frage: Wodurch können Gefährdungen am Arbeitsplatz entstehen? Nennen Sie zwei Möglichkeiten.
+    nr: 75
+    antwort: |-
+      z.B.
+      - durch die Gestaltung und Einrichtung des Arbeitsplatzes
+      - durch die Gestaltung von und den Umgang mit Arbeitsmitteln
+      - durch die Gestaltung von Arbeitsverfahren
+      - durch vorhandene Gefahrstoffe
+      - durch mangelhafte Qualifikation und Unterweisung der Arbeitnehmer
+  - frage: Was regelt die Arbeitsstättenverordnung?
+    nr: 76
+    antwort: |-
+      Die Arbeitsstättenverordnung regelt die Mindestanforderungen beim Einrichten und Betreiben von Arbeitsstätten. 
+  - frage: Wie breit muss ein Verkehrsweg für einen Elektro-Gabelhubwagen sein, wenn der Elektro-Gabelhubwagen 60 cm breit ist?
+    nr: 77
+    antwort: |-
+      Der Verkehrsweg muss mindestens 1,60 m breit sein (Breite des Fördermittels + min. 0,5 m auf beiden Seiten des Verkehrsweges).
+  - frage: Nennen Sie drei mögliche Folgen einer hohen Lärmbelastung am Arbeitsplatz.
+    nr: 78
+    antwort: |-
+      z.B.
+      - Schwerhörigkeit
+      - Herz-Kreislauf-Probleme
+      - Magen-Darm-Beschwerden
+      - psychische Probleme
+  - frage: Wer vergibt das GS-Zeichen und was sagt es aus?
+    nr: 79
+    antwort: |-
+      Das GS-Zeichen (geprüfte Sicherheit) wird von einer zugelassenen Prüf- und Zertifizierungsstelle, z.B. vom TÜV vergeben. Das Zeichen kennzeichnet technische Produkte, die den Anforderungen des Gerätesicherheitsgesetzes und den DIN- und DIN-EN-Bestimmungen entsprechen.
+  - frage: Welchem Zweck dient das Chemikaliengesetz?
+    nr: 80
+    antwort: |-
+      Das Chemikaliengesetz dient dem Zweck, Mensch und Umwelt vor schädlichen Einwirkungen durch gefährliche Stoffe und Zubereitungen zu schützen. Diese Einwirkungen sollen erkennbar gemacht werden, abgewendet und ihren Entstehen vorgebeugt werden.
+  - frage: Welches sind die Kernpunkte der Gefahrstoffverordnung?
+    nr: 81
+    antwort: |-
+      - Gefährdungsbeurteilung
+      - arbeitsmedizinische Vorsorge
+  - frage: Was ist eine Gefährdungsbeurteilung? 
+    nr: 82
+    antwort: |-
+      Der Arbeitgeber hat jeden Arbeitsplatz nach seiner Gefährdung zu beurteilen, um zu ermitteln, welche Arbeitsschutzmaßnahmen erforderlich sind.
+  - frage: Wer erstellt die Gefährdungsbeurteilung?
+    nr: 83
+    antwort: |-
+      Verantwortlich für die Erstellung ist der Arbeitgeber, vorgenommen wird die Gefährdungsbeurteilung durch die Fachkräfte für Arbeitssicherheit in Zusammenarbeit mit den Betriebsärzten.
+  - frage: Was sind Emissionen?
+    nr: 84
+    antwort: |-
+      Emissionen sind Luftverunreinigungen, Geräusche, Erschütterungen, Licht, Wärme, Strahlen usw., die von einer Anlage ausgehen. Anlagen sind Betriebsstätten, Maschinen, Geräte und Fahrzeuge.
+  - frage: Was sind Immissionen?
+    nr: 85
+    antwort: |-
+      Immissionen sind Luftverunreinigungen, Geräusche, Erschütterungen, Licht, Wärme, Strahlen usw., die auf Menschen, Umwelt, Atmosphäre sowie Kultur- und sonstige Sachgüter einwirken.
+  - frage: Welchem Zweck dient das Wasserhaushaltsgesetz?
+    nr: 86
+    antwort: |-
+      Das Wasserhaushaltsgesetz dient dem Schutz des Wassers vor Verunreinigungen.
+  - frage: Welche Bedingungen müssen zusammentreffen, damit ein Feuer entsteht?
+    nr: 87
+    antwort: |-
+      Brennbarer Stoff, Sauerstoff und Zündquelle
+  - frage: Nennen Sie drei Ursachen für Brände.
+    nr: 88
+    antwort: |-
+      z.B.
+      - unsachgemäßer Umgang mit Einrichtungen und Stoffen
+      - Defekte in der Elektrik
+      - fehlende Unterweisung der Beschäftigten
+      - mangelndes Gefahrenbewusstsein beim Umgang mit Gefahrstoffen
+      - Missachtung des Rauchverbotes
+      - Brandstiftung
+  - frage: In welche zwei Bereiche wird der Brandschutz unterteilt?
+    nr: 89
+    antwort: |-
+      - vorbeugender Brandschutz
+      - abwehrender Brandschutz
+  - frage: Welche drei Bereiche gehören zum vorbeugenden Brandschutz?
+    nr: 90
+    antwort: |-
+      - baulicher Brandschutz
+      - technischer Brandschutz
+      - betrieblicher Brandschutz
+  - frage: Der technische Brandschutz wird in die Bereiche Vermeiden, Warnen und Löschen unterteilt. Nennen Sie zu allen drei Bereichen je ein Beispiel.
+    nr: 91
+    antwort: |-
+      Vermeiden: Durch Reduktion der Sauerstoffkonzentration in der Luft
+      Warnen: Mithilfe von Feuermelder
+      Löschen: Mithilfe von Feuerlöscher
+  - frage: Nennen Sie drei Brandmeldeeinrichtungen.
+    nr: 92
+    antwort: |-
+      z.B.
+      - Feuermelder
+      - Rauchmelder
+      - Thermo- oder Wärmemelder
+      - Flammen- oder Strahlenmelder
+  - frage: Nennen Sie drei verschiedene Brandbekämpfungsanlagen.
+    nr: 93
+    antwort: |-
+      z.B.
+      - Sprinkleranlagen
+      - Sprühwasseranlagen
+      - Berieselungsanlagen
+      - Schaumlöschanlagen
+      - Pulverlöschanlage
+      - Kohlendioxidanlage
+  - frage: Welche Gefahr ist mit einer Kohlendioxidanlage für den Menschen verbunden?
+    nr: 94
+    antwort: |-
+      Durch das ausströmende Kohlendioxid wird dem Feuer der notwendige Sauerstoff entzogen und so das Feuer erstickt. Bei Betrieb dieser Anlage droht dem Menschen Erstickungsgefahr, und er muss diesen Bereich sofort verlassen.
+  - frage: Nennen Sie die verschiedenen Brandklassen und erklären Sie, für welche brennenden Stoffe sie gelten.
+    nr: 95
+    antwort: |-
+      - Brandklasse A:
+      brennbare feste Stoffe
+      - Brandklasse B:
+      brennbare Flüssigkeiten
+      - Brandklasse C:
+      brennbare gasförmige Stoffe
+      - Brandklasse D:
+      brennbare Metalle
+      - Brandklasse F:
+      Brände von Speiseöl/-fetten
+  - frage: Welches Löschmittel benötigen Sie, um brennendes Fett zu löschen?
+    nr: 96
+    antwort: |-
+      Brennendes Fett wird mit einem Speziallöschmittel gelöscht, niemals mit Wasser.
+      Handelt es sich nur um ein kleines Feuer, sollte man versuchen, das Feuer zu ersticken.
+  - frage: Wie sollte ein Tropfbrand gelöscht werden?
+    nr: 97
+    antwort: |-
+      Ein Tropfbrand sollte von oben nach unten gelöscht werden.
+  - frage: Wie lautet die Reihenfolge der Maßnahmen zur Rettungs- und Brandbekämpfung?
+    nr: 98
+    antwort: |-
+      Melden -> Retten -> Löschen
+  - frage: Nennen Sie drei Maßnahmen, um Diebstählen im Lager vorzubeugen.
+    nr: 99
+    antwort: |-
+      z.B.
+      - übersichtliche Lagerung
+      - Unwickeln der Paletten mit Stretchfolie
+      - Durchführen von Kontrollen
+      - Alarmanlagen
+      - elektronische Etiketten
