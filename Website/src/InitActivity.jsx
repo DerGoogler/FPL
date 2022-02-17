@@ -112,6 +112,7 @@ class InitActivity extends Component {
     });
 
     this.setState({ routeConfig });
+    this.setState({ currentPage: "main" });
   }
 
   onPostPush() {
