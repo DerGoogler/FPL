@@ -51,7 +51,7 @@ const MainActivity = ({ pushPage }) => {
                   pushPage(AboutActivity, "about", "", "");
                 }}
               >
-                <Icon icon="md-file"></Icon>
+                🗨
               </ToolbarButton>
             </div>
           }
