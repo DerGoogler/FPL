@@ -64,7 +64,7 @@ fragen:
     antwort: |-
       Rohstoffe sind Stoffe, die unmittelbar in das zu fertigende Produkt eingehen und dessen Hauptbestandteil bilden, z.B. Holz bei einem Kleiderschrank.
   - frage: Was sind Betriebsstoffe?
-    nr: 
+    nr:
     antwort: |-
       Betriebsstoffe sind Stoffe, die nicht direkt in das zu fertigende Produkt eingehen, aber den Produktionsprozess in Gang halten, z.B. Benzin, Schmieröl oder Strom.
   - frage: Was sind Hilfstoffe?
@@ -90,16 +90,21 @@ fragen:
   - frage: Welche Lagerarten können im Großhandel unterschieden werden?
     nr: 14
     antwort: |-
-            - Auslieferungslager
+      - Auslieferungslager
       - Kommissionslager
   - frage: Was ist ein Kommissionslager?
     nr: 15
     antwort: |-
       Das Kommissionslager ist ein Lager des Lieferanten beim Kunden, aus dem sich der Kunde die benötigte Ware entnimmt.
-  - frage: 
+  - frage: Nennen Sie drei Maßnahmen, um Diebstählen im Lager vorzubeugen.
     nr: 16
     antwort: |-
-      Welche Lagerarten können im Einzelhandel unterschieden werden?
+      z.B.
+      - übersichtliche Lagerung
+      - Unwickeln der Paletten mit Stretchfolie
+      - Durchführen von Kontrollen
+      - Alarmanlagen
+      - elektronische Etiketten
   - frage: Welche Lagerarten können im Einzelhandel unterschieden werden?
     nr: 17
     antwort: |-
@@ -325,7 +330,7 @@ fragen:
     nr: 48
     antwort: |-
       Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.
-  - frage: Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.   
+  - frage: Nennen Sie drei Kriterien, von denen die Stapelhöhe bei der Bodenlagerung abhängt.
     nr: 49
     antwort: |-
       Die Blocklagerung eignet sich für Güter gleicher Art in großen Mengen sowie zur Lagerung von Langsamdrehern. Außerdem sollte es sich um nicht verderbliche Güter bzw. Waren mit einem langen Haltbarkeitsdatum handeln.
@@ -337,6 +342,7 @@ fragen:
       - hohe Flächen- und Raumausnutzung
       - einfache Organisation
       - geringe Störanfälligkeit
+              
       Nachteile sind z.B.
       - LIFO-Prinzip
       - Zugriff auf jede Lagereinheit nur durch Umstapeln möglich
@@ -484,7 +490,7 @@ fragen:
   - frage: Was regelt die Arbeitsstättenverordnung?
     nr: 76
     antwort: |-
-      Die Arbeitsstättenverordnung regelt die Mindestanforderungen beim Einrichten und Betreiben von Arbeitsstätten. 
+      Die Arbeitsstättenverordnung regelt die Mindestanforderungen beim Einrichten und Betreiben von Arbeitsstätten.
   - frage: Wie breit muss ein Verkehrsweg für einen Elektro-Gabelhubwagen sein, wenn der Elektro-Gabelhubwagen 60 cm breit ist?
     nr: 77
     antwort: |-
@@ -510,7 +516,7 @@ fragen:
     antwort: |-
       - Gefährdungsbeurteilung
       - arbeitsmedizinische Vorsorge
-  - frage: Was ist eine Gefährdungsbeurteilung? 
+  - frage: Was ist eine Gefährdungsbeurteilung?
     nr: 82
     antwort: |-
       Der Arbeitgeber hat jeden Arbeitsplatz nach seiner Gefährdung zu beurteilen, um zu ermitteln, welche Arbeitsschutzmaßnahmen erforderlich sind.
@@ -609,12 +615,3 @@ fragen:
     nr: 98
     antwort: |-
       Melden -> Retten -> Löschen
-  - frage: Nennen Sie drei Maßnahmen, um Diebstählen im Lager vorzubeugen.
-    nr: 99
-    antwort: |-
-      z.B.
-      - übersichtliche Lagerung
-      - Unwickeln der Paletten mit Stretchfolie
-      - Durchführen von Kontrollen
-      - Alarmanlagen
-      - elektronische Etiketten

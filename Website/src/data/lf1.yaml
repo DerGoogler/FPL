@@ -24,7 +24,7 @@ fragen:
       - zurücklaufender Informationsfluss
   - frage: Erläutern Sie die Aufgabe der Logistik.
     nr: 5
-    antwort: |-  
+    antwort: |-
       Aufgabe der Logistik ist es dafür zu sorgen, dass
       - die richtige Ware
       - in der richtigen Menge
@@ -65,7 +65,7 @@ fragen:
       - Auftrag kommissionen
       - Ladungseinheiten bilden
       - Ware verpacken
-      - Ware befördern 
+      - Ware befördern
   - frage: Nennen Sie drei Tätigkeiten im Warenausgang.
     nr: 9
     antwort: |-
@@ -308,10 +308,14 @@ fragen:
     nr: 49
     antwort: |-
       Die Waren werden so zusammengestellt und verpackt, dasss die Lagereinheit gleich der Kommissioniereinheiten und diese gleich der Bestelleinheit der Kunden ist.
-  - frage: 
+  - frage: Nennen Sie die Funktionen eines Lieferscheins.
     nr: 50
     antwort: |-
-      
+      Kontrollfunktion:
+      Abgleich des der Bestellung mithilfe des Lieferscheins.
+
+      Beweisfunktion:
+      Unterschrift auf dem Lieferschein von Überbringer und Empfänger bestätigt ordnungsgemäße und einwandfreie Zustellung der Ware.
   - frage: Welche Kaufvertragsstörungen können unterschieden werden?
     nr: 51
     antwort: |-
@@ -432,11 +436,3 @@ fragen:
     nr: 69
     antwort: |-
       Der Frachtbrief wird vom Absender erstellt und beweist das Zustandekommen eines Frachtvertrages zwischen Absender und Frachtführer.
-  - frage: Nennen Sie die Funktionen eines Lieferscheins.
-    nr: 70
-    antwort: |-
-      Kontrollfunktion:
-      Abgleich des der Bestellung mithilfe des Lieferscheins.
-
-      Beweisfunktion:
-      Unterschrift auf dem Lieferschein von Überbringer und Empfänger bestätigt ordnungsgemäße und einwandfreie Zustellung der Ware.
