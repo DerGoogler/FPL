@@ -1,12 +1,16 @@
 const webpack = require("webpack");
 const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 const config = {
-  mode: "development",
-  entry: ["./src/index.jsx"],
+  entry: {
+    app: ["./src/index.jsx"],
+  },
   output: {
+    filename: "bundle/[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    assetModuleFilename: "files/[name].[ext]",
   },
   module: {
     rules: [
@@ -21,16 +25,12 @@ const config = {
         exclude: /node_modules/,
       },
       {
-        test: /(\.css$)/,
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        test: /\.(scss|css)$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
-        use: "url-loader?limit=100000",
+        test: /\.(eot|woff|woff2|ttf|svg|png|jpe?g|gif)(\?\S*)?$/,
+        type: "asset/resource",
       },
       {
         test: /\.yaml$/,
@@ -38,18 +38,43 @@ const config = {
       },
     ],
   },
+  optimization: {
+    splitChunks: {
+      chunks: "async",
+      minSize: 20000,
+      minRemainingSize: 0,
+      minChunks: 1,
+      maxAsyncRequests: 30,
+      maxInitialRequests: 30,
+      enforceSizeThreshold: 50000,
+      cacheGroups: {
+        vendor: {
+          test: /node_modules/,
+          chunks: "initial",
+          name: "vendor",
+          enforce: true,
+        },
+      },
+    },
+    minimizer: [new CssMinimizerPlugin()],
+    minimize: true,
+  },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000,
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "bundle/[name].bundle.css",
+    }),
+  ],
   resolve: {
     extensions: [".js", ".jsx"],
-    modules: [
-      "node_modules",
-      path.join(process.env.NPM_CONFIG_PREFIX || __dirname, "lib/node_modules"),
-    ],
+    modules: ["node_modules", path.join(process.env.NPM_CONFIG_PREFIX || __dirname, "lib/node_modules")],
   },
   resolveLoader: {
-    modules: [
-      "node_modules",
-      path.join(process.env.NPM_CONFIG_PREFIX || __dirname, "lib/node_modules"),
-    ],
+    modules: ["node_modules", path.join(process.env.NPM_CONFIG_PREFIX || __dirname, "lib/node_modules")],
   },
   devServer: {
     port: 9950,

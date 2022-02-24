@@ -12,7 +12,7 @@ const LfActivity = ({ pushPage, popPage, lfData }) => {
   const isTitleHeaderVisible = useOnScreen(titleHeaderRef);
 
   const fragen = lfData.fragen.map((item) => (
-    <Card>
+    <Card key={item.nr}>
       <div className="title">Frage #{item.nr}</div>
       <div className="content">
         <div
@@ -26,7 +26,13 @@ const LfActivity = ({ pushPage, popPage, lfData }) => {
           <Button
             modifier="quiet"
             onClick={() => {
-              pushPage(AntwortActivity, "lf1", name, item.antwort, item.nr);
+              pushPage(
+                AntwortActivity,
+                lfData.config.key,
+                name,
+                item.antwort,
+                item.nr
+              );
             }}
           >
             Antwort anzeigen

@@ -13,7 +13,7 @@ const AboutActivty = ({ pushPage, popPage }) => {
         }}
       >
         <Card>
-          <article class="markdown-body">
+          <article className="markdown-body">
             <p>
               Dieses Projekt fällt unter die{" "}
               <a href="https://github.com/DerGoogler/FPL/blob/master/LICENSE">

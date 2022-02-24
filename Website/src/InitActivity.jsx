@@ -1,17 +1,9 @@
 import React, { Component } from "react";
 import jss from "jss";
 import preset from "jss-preset-default";
-import {
-  Page,
-  Toolbar,
-  BackButton,
-  RouterNavigator,
-  RouterUtil,
-} from "react-onsenui";
+import { Page, Toolbar, BackButton, RouterNavigator, RouterUtil } from "react-onsenui";
 import MainActivity from "./views/MainActivity";
 import styles from "./styles/styles";
-import addtionalStyles from "./styles/addtional";
-import markdownStyles from "./styles/markdown";
 
 class InitActivity extends Component {
   constructor(props) {
@@ -32,12 +24,8 @@ class InitActivity extends Component {
 
   componentDidMount = () => {
     window.addEventListener("load", this.windowLoadPush);
-
     jss.setup(preset());
-
     jss.createStyleSheet(styles).attach();
-    jss.createStyleSheet(addtionalStyles).attach();
-    jss.createStyleSheet(markdownStyles).attach();
   };
 
   componentWillUnmount = () => {
@@ -144,14 +132,7 @@ class InitActivity extends Component {
   render() {
     return (
       <Page>
-        <RouterNavigator
-          swipeable={true}
-          swipePop={(options) => this.popPage(options)}
-          routeConfig={this.state.routeConfig}
-          renderPage={this.renderPage}
-          onPostPush={() => this.onPostPush()}
-          onPostPop={() => this.onPostPop()}
-        />
+        <RouterNavigator swipeable={true} swipePop={(options) => this.popPage(options)} routeConfig={this.state.routeConfig} renderPage={this.renderPage} onPostPush={() => this.onPostPush()} onPostPop={() => this.onPostPop()} />
       </Page>
     );
   }

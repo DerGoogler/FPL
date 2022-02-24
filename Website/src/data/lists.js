@@ -13,7 +13,7 @@ const lists = [
     title: "Lernfeld 1",
     content: "Güter annehmen und kontrollieren",
     options: {
-      display: false,
+      display: true,
     },
   },
   {
@@ -21,7 +21,7 @@ const lists = [
     title: "Lernfeld 2",
     content: "Güter lagern",
     options: {
-      display: false,
+      display: true,
     },
   },
   {

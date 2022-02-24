@@ -2,11 +2,11 @@ config:
   title: Lernfeld 6
   key: lf6
 fragen:
-  - frage: 
+  - frage: sdfsfd
     nr: 1
     antwort: |-
-      
-  - frage: 
+      sdfsdfsd
+  - frage: sdfsdfs
     nr: 2
     antwort: |-
-      
+      sdfsdff
